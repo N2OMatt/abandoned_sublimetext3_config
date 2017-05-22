@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+NS_${1}_BEGIN
+NS_${1}_END
+]]></content>
+    <tabTrigger>NS_</tabTrigger>
+</snippet>
