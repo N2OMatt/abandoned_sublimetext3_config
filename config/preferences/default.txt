@@ -1,0 +1,3 @@
+//Normal Linux
+"font_face"      : "Meslo LG S DZ",
+"font_size"      : 12,
