@@ -99,6 +99,7 @@ replace_file_contents "__FONT_CONFIG__"                         \
 
 ## Copy everything needed to build path.
 echo "----> Copying files to ($FINAL_PATH)";
+mkdir -pv "$FINAL_PATH"
 cp -Rv ./build/* "$FINAL_PATH";
 
 echo "--> Done...";
