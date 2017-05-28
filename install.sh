@@ -41,13 +41,13 @@ replace_file_contents()
     FILE_TO_INSERT=$2
     FILE_TO_MODIFY=$3
 
-    ## Only to debug...
-    # echo "STR            $STR";
-    # echo "FILE_TO_INSERT $FILE_TO_INSERT";
-    # echo "FILE_TO_MODIFY $FILE_TO_MODIFY";
+    # Only to debug...
+    echo "STR            $STR";
+    echo "FILE_TO_INSERT $FILE_TO_INSERT";
+    echo "FILE_TO_MODIFY $FILE_TO_MODIFY";
 
-    sed -i "BACKUP" -e "/$STR/r $FILE_TO_INSERT" -e "/$STR/d" $FILE_TO_MODIFY;
-    rm ${FILE_TO_MODIFY}BACKUP;
+    sed -i"BACKUP" -e "/$STR/r $FILE_TO_INSERT" -e "/$STR/d" $FILE_TO_MODIFY;
+    rm -f ${FILE_TO_MODIFY}BACKUP;
 }
 
 
