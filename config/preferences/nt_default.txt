@@ -1,0 +1,3 @@
+//NT
+"font_face"      : "Meslo LG S DZ Bold",
+"font_size"      : 12,

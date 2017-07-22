@@ -10,7 +10,6 @@
 ##   Install the sublime configuration :D                                     ##
 ################################################################################
 
-
 ################################################################################
 ## Constants                                                                  ##
 ################################################################################
@@ -74,6 +73,7 @@ echo "----> PLATFORM_OPTION : ($PLATFORM_OPTION)";
 FINAL_PATH="";
 if [ -n "$IS_ON_NT" ]; then
     FINAL_PATH="$NT_PATH";
+    PLATFORM_OPTION="nt_default"; ## Font name needs bold on windows... ahrrrrggghhh!
 elif [ -n "$IS_ON_OSX" ]; then
     FINAL_PATH="$OSX_PATH";
 else
