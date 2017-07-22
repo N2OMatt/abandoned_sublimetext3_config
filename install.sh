@@ -18,7 +18,7 @@ WHO_AM_I="$(whoami)";
 
 OSX_PATH="$HOME/Library/Application Support/Sublime Text 3/Packages/User/"
 LINUX_PATH="$HOME/.config/sublime-text-3/Packages/User/";
-NT_PATH=/cygdrive/c/Users/matt/AppData/Roaming/Sublime\ Text\ 3/Packages/User/;
+NT_PATH="/cygdrive/c/Users/$WHO_AM_I/AppData/Roaming/"Sublime\ Text\ 3/Packages/User/;
 
 
 ################################################################################
