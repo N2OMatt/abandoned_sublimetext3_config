@@ -102,4 +102,7 @@ echo "----> Copying files to ($FINAL_PATH)";
 mkdir -pv "$FINAL_PATH"
 cp -Rv ./build/* "$FINAL_PATH";
 
+## Clean temp build folder...
+rm -rf ./build
+
 echo "--> Done...";
