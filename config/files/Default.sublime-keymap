@@ -17,7 +17,6 @@
     { "keys": ["alt+shift+up"  ], "command": "select_lines", "args": {"forward": false} },
     { "keys": ["alt+shift+down"], "command": "select_lines", "args": {"forward": true } },
 
-
     ////////////////////////////////////////////////////////////////////////////
     // Tab navigation                                                         //
     ////////////////////////////////////////////////////////////////////////////
@@ -28,36 +27,15 @@
     { "keys": ["ctrl+tab"      ], "command": "next_view" },
     { "keys": ["ctrl+shift+tab"], "command": "prev_view" },
 
-
     ////////////////////////////////////////////////////////////////////////////
     // Comment separators                                                     //
     ////////////////////////////////////////////////////////////////////////////
-    //
-    // C++
-    {
-        "keys": ["ctrl+k","ctrl+/"],
-        "command": "insert_snippet",
-        "args": { "name": "Packages/User/cpp_comment.sublime-snippet" }
-    },
-    {
-        "keys": ["ctrl+k","ctrl+."],
-        "command": "insert_snippet",
-        "args": { "name": "Packages/User/cpp_comment_small.sublime-snippet" }
-    },
-
-    // SH / Python
-    {
-        "keys": ["ctrl+k","ctrl+3"],
-        "command": "insert_snippet",
-        "args": { "name": "Packages/User/sh_comment.sublime-snippet" }
-    },
-
+    { "keys": ["ctrl+k","ctrl+/"], "command": "insert_comment" },
 
     ////////////////////////////////////////////////////////////////////////////
     // Insert Datetime                                                        //
     ////////////////////////////////////////////////////////////////////////////
     { "keys": ["ctrl+k", "ctrl+d"], "command": "insert_datetime" },
-
 
     ////////////////////////////////////////////////////////////////////////////
     // Some math helpers...                                                   //
