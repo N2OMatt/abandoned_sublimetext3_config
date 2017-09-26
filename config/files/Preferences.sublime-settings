@@ -38,6 +38,14 @@
     [
         "Vintage"
     ],
+
+    "folder_exclude_patterns":
+    [
+        ".svn",
+        ".hg",
+        "CVS"
+    ],
+
     "binary_file_patterns":
     [
         "*.jpg",
