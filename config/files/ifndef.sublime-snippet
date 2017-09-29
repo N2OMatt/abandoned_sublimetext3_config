@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-#ifndef _a_
-#define _a_
-#endif // defined(_a_) //
-]]></content>
-    <tabTrigger>ifndef</tabTrigger>
-</snippet>
