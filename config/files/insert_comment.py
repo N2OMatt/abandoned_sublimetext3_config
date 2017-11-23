@@ -84,12 +84,7 @@ def get_end_comment_for_ext(ext):
     return get_start_comment_for_ext(ext);
 
 def get_middle_comment_for_ext(ext):
-    ## Extension isn't in any list,
-    ##    Check if it is a 'special' extension...
-    if(ext in other_cmt.keys()):
-        return other_cmt[ext][1];
-
-    return get_start_comment_for_ext(ext);
+    return "-";
 
 
 def fill(start, middle, end, content):
